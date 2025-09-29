@@ -13,24 +13,39 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-  Perfume
+  <section class="product-preview-card container">
+    <div class="product-box">
 
-  Gabrielle Essence Eau De Parfum
+      <div class="image-part">
+        <picture>
+          <source srcset="./images/image-product-mobile.jpg" media="(max-width: 40em)">
+          <img src="./images/image-product-desktop.jpg" alt="Product image">
+        </picture>
+      </div>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <div class="text-part">
+        <p class="category">Perfume</p>
+        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <p class="price">
+          <span class="price-now">$149.99</span>
+          <span class="price-before">$169.99</span>
+        </p>
+        <a class="add-to-cart" href="#">Add to Cart</a>
+      </div>
 
-  $149.99
-  $169.99
+    </div>
 
-  Add to Cart
+  </section>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">https://github.com/Tomas1211/</a>.
   </div>
 </body>
 </html>
